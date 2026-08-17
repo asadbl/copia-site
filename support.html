@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Copia — Support</title>
+<style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0 auto; padding: 40px 22px 80px; max-width: 720px;
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #1d1d1f; background: #fff;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { color: #f5f5f7; background: #161617; }
+      a { color: #6ea8fe; }
+      th { background: #202022; }
+      td, th { border-color: #333; }
+      code { background: #202022; }
+    }
+    h1 { font-size: 2rem; letter-spacing: -0.02em; margin: 0 0 4px; }
+    h2 { font-size: 1.25rem; margin: 2.2rem 0 0.6rem; letter-spacing: -0.01em; }
+    .updated { color: #86868b; font-size: 0.9rem; margin-bottom: 2rem; }
+    a { color: #0066cc; }
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; display: block; overflow-x: auto; }
+    td, th { border: 1px solid #d2d2d7; padding: 8px 12px; text-align: left; }
+    th { background: #f5f5f7; }
+    code { background: #f5f5f7; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+    .nav { margin-bottom: 2rem; font-size: 0.9rem; }
+    footer { margin-top: 3.5rem; padding-top: 1.2rem; border-top: 1px solid #d2d2d7; color: #86868b; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="./index.html">Copia</a> &middot; <a href="./privacy.html">Privacy</a> &middot; <a href="./support.html">Support</a></div>
+
+<h1>Copia Support</h1>
+
+<p>A clipboard manager for macOS. Everything you copy is kept in a searchable</p>
+<p>history you can reach from anywhere with a keyboard shortcut.</p>
+
+<p><strong>Get help:</strong> open an issue at</p>
+<p><a href="https://github.com/asadbl/copia/issues">github.com/asadbl/copia/issues</a></p>
+
+<h2>Shortcuts</h2>
+
+<table>
+<tr><th>Key</th><th>Action</th></tr>
+<tr><td><code>⇧⌘V</code></td><td>Open clipboard history at the pointer</td></tr>
+<tr><td><code>⇧⌘S</code></td><td>Capture a screenshot straight to the clipboard</td></tr>
+<tr><td><code>↑</code> <code>↓</code></td><td>Move through the list</td></tr>
+<tr><td><code>⏎</code></td><td>Paste the selected item</td></tr>
+<tr><td><code>⇧⏎</code></td><td>Paste without formatting</td></tr>
+<tr><td><code>⌘1</code>–<code>⌘9</code></td><td>Paste that row directly</td></tr>
+<tr><td><code>⌘⇧P</code></td><td>Pin or unpin</td></tr>
+<tr><td><code>⌘⌫</code></td><td>Delete from history</td></tr>
+<tr><td><code>⌘,</code></td><td>Settings</td></tr>
+<tr><td><code>esc</code></td><td>Close</td></tr>
+</table>
+
+<p>Both shortcuts can be changed in Settings.</p>
+
+<h2>Common questions</h2>
+
+<p><strong>Copia isn't pasting for me.</strong></p>
+<p>It needs Accessibility access: System Settings → Privacy & Security →</p>
+<p>Accessibility. If Copia already appears switched on there, **quit and reopen</p>
+<p>it** — a permission granted while an app is running doesn't apply until it</p>
+<p>restarts.</p>
+
+<p><strong>⇧⌘S does nothing, or asks for permission repeatedly.</strong></p>
+<p>Screenshot capture needs Screen Recording access, in the same Privacy & Security</p>
+<p>section. It also requires a restart after granting.</p>
+
+<p><strong>Are my passwords stored?</strong></p>
+<p>No. Copia ignores clipboard entries that password managers mark as concealed.</p>
+
+<p><strong>Does anything leave my Mac?</strong></p>
+<p>No, unless you switch on iCloud mirroring, which copies recent clips to your own</p>
+<p>iCloud Drive so you can read them on iPhone. It is off by default.</p>
+
+<p><strong>⇧⌘S conflicts with Save As.</strong></p>
+<p>A global shortcut takes precedence over an app's own. Record a different one in</p>
+<p>Settings → Screenshots.</p>
+
+<p><strong>How do I stop items expiring?</strong></p>
+<p>Settings → History → Keep items for → Forever. Pinned items are never removed</p>
+<p>regardless of that setting.</p>
+
+<footer>Copia for macOS &middot; &copy; 2026 Asad</footer>
+</body>
+</html>
